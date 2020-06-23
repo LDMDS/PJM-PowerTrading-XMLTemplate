@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+<env:Header/>
+<env:Body>
+<SubmitRequest xmlns="http://emkt.pjm.com/emkt/xml">
+   <VirtualBid location="1124361945" day="20XX-11-15">
+		<Increment>
+			<VirtualBidHourly hour="1">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+		    <VirtualBidHourly hour="2">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="3">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+		    <VirtualBidHourly hour="4">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="5">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+		    <VirtualBidHourly hour="6">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="7">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="8">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+		    <VirtualBidHourly hour="9">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="10">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="15">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="20">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="23">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+			<VirtualBidHourly hour="24">
+				<BidSegment id="01">
+				<MW>10</MW>
+				<Price>10</Price>
+				</BidSegment>
+			</VirtualBidHourly>
+		</Increment>
+	</VirtualBid>
+</SubmitRequest>
+</env:Body>
+</env:Envelope>

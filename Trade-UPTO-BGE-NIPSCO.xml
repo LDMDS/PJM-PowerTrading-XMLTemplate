@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+<env:Header/>
+<env:Body>
+<SubmitRequest xmlns="http://emkt.pjm.com/emkt/xml">
+	<UpToTransaction day="20XX-11-15" sourceLocation="34509947" sinkLocation="51292">
+		<UpToTransactionHourly hour="16">
+			<MW>40</MW>
+			<Price>16</Price>
+		</UpToTransactionHourly>
+		<UpToTransactionHourly hour="17">
+			<MW>40</MW>
+			<Price>16</Price>
+		</UpToTransactionHourly>
+		<UpToTransactionHourly hour="18">
+			<MW>40</MW>
+			<Price>16</Price>
+		</UpToTransactionHourly>
+		<UpToTransactionHourly hour="20">
+			<MW>40</MW>
+			<Price>16</Price>
+		</UpToTransactionHourly>
+		<UpToTransactionHourly hour="21">
+			<MW>40</MW>
+			<Price>16</Price>
+		</UpToTransactionHourly>
+		<UpToTransactionHourly hour="22">
+			<MW>40</MW>
+			<Price>16</Price>
+		</UpToTransactionHourly>
+	</UpToTransaction>
+</SubmitRequest>
+</env:Body>
+</env:Envelope>
